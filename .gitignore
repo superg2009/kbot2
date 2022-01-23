@@ -72,12 +72,6 @@ typings/
 # Serverless directories
 .serverless
 
-#current config vars
-config.json
-
-#es linter
-.eslintrc.json
-
 #VSCode Dir
 .vscode
 

@@ -18,6 +18,8 @@
   },
   "devDependencies": {
     "eslint": "^8.7.0",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "@babel/core": "^7.16.12",
+    "@babel/eslint-parser": "^7.16.5"
   }
 }
