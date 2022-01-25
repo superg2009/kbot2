@@ -5,21 +5,26 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "heroku-postbuild": "node deploy-commands.js"
   },
   "author": "",
+  "engines": {
+    "node": ">=16"
+  },
   "license": "ISC",
   "dependencies": {
     "@discordjs/builders": "^0.11.0",
     "@discordjs/rest": "^0.2.0-canary.0",
     "discord-api-types": "^0.26.1",
     "discord.js": "^13.6.0",
-    "dotenv": "^14.2.0"
+    "dotenv": "^14.2.0",
+    "node-fetch": "^2.6.7"
   },
   "devDependencies": {
-    "eslint": "^8.7.0",
-    "nodemon": "^2.0.15",
     "@babel/core": "^7.16.12",
-    "@babel/eslint-parser": "^7.16.5"
+    "@babel/eslint-parser": "^7.16.5",
+    "eslint": "^8.7.0",
+    "nodemon": "^2.0.15"
   }
 }
