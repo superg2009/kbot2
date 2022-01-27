@@ -1,5 +1,5 @@
 # Kbot
-Discord bot using DiscordJS 13 & NodeJS 16!. This is not meant to be an eleborate bot but just some utility functions and cool things for my friends and to learn some NodeJS and modern Development and Deployment
+Discord bot using DiscordJS 13 & NodeJS 16!. This is not meant to be an eleborate bot but just some utility functions and cool things for my friends and to learn some NodeJS and modern Development and Deployment. Rewrite with DiscordJS 13 and Node 16
 
 # Set Up
 - git clone repository
